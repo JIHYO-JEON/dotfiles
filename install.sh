@@ -5,6 +5,9 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 cat .gitconfig > $HOME/.gitconfig
 
+npm install -g commitizen cz-conventional-changelog cz-customizable
+npm cache clean --force
+
 zshrc() {
     echo "==========================================================="
     echo "             cloning zsh-autosuggestions                   "
