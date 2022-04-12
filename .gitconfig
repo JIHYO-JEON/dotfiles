@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+	name = JIHYO-JEON
+	email = jihyo@gm.gist.ac.kr
+	username = JIHYO-JEON
+# Please adapt and uncomment the following lines:
+[alias]
+  graph = log --graph --branches --tags --remotes --oneline --decorate --pretty=format:'%C(auto)%h%C(auto)%d %Creset%s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+#	name = Jihyo Jeon
+#	email = JIHYO-JEON@users.noreply.github.com
+[core]
+	editor = vim
