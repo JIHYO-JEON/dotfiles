@@ -1,5 +1,7 @@
 #!/bin/sh
 
+apk add zsh
+
 zshrc() {
     echo "==========================================================="
     echo "             cloning zsh-autosuggestions                   "
