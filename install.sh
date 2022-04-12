@@ -1,6 +1,7 @@
 #!/bin/sh
 
-apk add zsh
+apk add zsh curl wget git
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 zshrc() {
     echo "==========================================================="
